@@ -1,0 +1,107 @@
+<html>
+    <DOCTYPE html>
+        <html>
+          <head>
+               <title> Lista </title>    
+               <meta charset="UTF-8">
+               <link rel="stylesheet" type="text/css" href="css/style.css" >  
+          </head>
+        
+          <style>
+                @font-face {
+                  font-family: Frase;
+                  src:url(fonts/Comforter-Regular.ttf);
+               } 
+               
+               @font-face {
+                  font-family: titulo;
+                  src:url(fonts/Whitelist-Demo.otf);
+               } 
+
+               *{
+                  padding: 0;
+                  margin: 0;
+               }
+
+               body{
+	                font-family: 'fonts/Comforter-Regulari.ttf'; 
+               }
+
+               p, a, h3{
+                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               }
+
+               h2{
+                font-family: Frase;
+                color:rgb(169, 65, 63);
+                font-size: 40px;
+                width: 900px;
+               }
+
+               h1{
+                font-family: titulo;
+                color:rgb(255, 255, 255);
+                font-size: 90px;
+               }
+        
+               a:hover{
+                color:rgb(122, 2, 2);
+               }
+        
+               a:visited{
+                 color:black;
+               } 
+               
+               .externo {
+                 position: relative;
+              }
+
+              .externo h1{
+                 position: absolute;
+                 margin-top: 40px;
+                 width: 100%;
+                 text-align: center;
+              }
+          </style>
+          
+
+          <body>
+            <center>
+              <div class=externo>
+               <h1> Lista de Tarefas </h1>
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a9413f" fill-opacity="1" d="M0,192L40,181.3C80,171,160,149,240,138.7C320,128,400,128,480,138.7C560,149,640,171,720,170.7C800,171,880,149,960,144C1040,139,1120,149,1200,176C1280,203,1360,245,1400,266.7L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+              </div>
+            </center>
+
+            <body style="background-color: rgb(20, 20, 20);">
+        
+            <center>
+              <img src="images/think.png"  
+                   width="20%">
+
+                   <div style="width:1300px; height:200px; background-color:rgb(20, 20, 20)">
+                  </div>   
+                   
+              <h2>     
+                  "Organização é o princípio de tudo, mantê-la significa competência"<br>
+              </h2> 
+             </center>
+           </div>   
+           <center>
+           <div class="contetnt">
+            
+            <div class="div1">
+              <input type="text" placeholder="Digite uma tarefa...">
+              <button> Adicionar </button>
+           
+            </div>
+          </center>
+          <center>
+            <div class="div2">
+               <ul> </ul>
+            </div>
+          </center>
+
+           </div> 
+      <script src="main.js"></script>
+</html>

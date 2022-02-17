@@ -1,0 +1,11 @@
+.head {
+    background: #a9413f;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    position:relative;
+}
+
+.curved svg{
+    display: block ;
+}
