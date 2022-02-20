@@ -1,0 +1,80 @@
+@import url('https://fonts.google.com/specimen/Comforter?query=comfort');
+
+*{
+    margin: 0;
+    padding:0;
+    border: none;
+    outline: none;
+}
+
+body, button, input{
+    font-family: 'Comforter', sans-serif;
+} 
+
+.content{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: auto;
+   width: 500px;
+}
+
+h1 {
+    margin-top: 16px;
+    font-size: 48px;
+}
+
+.div1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1 input {
+   border-bottom: 1px solid #333333;
+   border-radius: 34px;
+   margin-right: 16px;
+   font-size: 30px;
+   width: 100%;
+}
+
+.div1 button {
+   padding: 4px 16px;
+   border-radius: 34px;
+   cursor: pointer;
+   background-color: rgb(169, 65, 63);
+   color: rgb(20, 20, 20);
+   font-size: 30px;
+   text-align: center;
+}
+
+.div2 {
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'Comforter', sans-serif;
+}
+
+ul {
+    margin-top: 16px;
+}
+
+li {
+   list-style: none;
+   text-align: left;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid #333333;
+   margin-bottom: 24px;
+   font-size: 40px;
+   color: rgb(169, 65, 63);
+}
+
+a {
+  text-decoration: none;
+  color:rgb(169, 65, 63);
+  cursor: pointer;
+}

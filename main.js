@@ -36,7 +36,7 @@ function addTarefas(){
      mostraTarefas()
 }
 
-elementoBotao.setAttribute('onclick', 'addTarefa()')
+elementoBotao.setAttribute('onclick', 'addTarefas()')
 
 function deletaTarefa(pos){
     tarefas.splice(pos, 1)
